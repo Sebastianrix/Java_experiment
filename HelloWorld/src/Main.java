@@ -4,8 +4,8 @@ import static java.awt.SystemColor.text;
 
 public class Main {
     public static void main(String[] args) throws Exception{
-        String text = "I cracked your password I cracked your password I cracked your password I cracked your password";
-
+       // String text = "I cracked your password I cracked your password I cracked your password I cracked your password";
+         String text ="New update";
         nyMethod(bruteForce(text));
     }
     public static String bruteForce(String inPut)  throws InterruptedException{
